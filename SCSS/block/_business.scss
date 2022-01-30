@@ -1,0 +1,111 @@
+.business{
+    margin-top: 120px;
+    padding: 0;
+}
+
+.business__about{
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+}
+
+.business__div{
+    width: 507px;
+    margin: 0;
+    padding: 0;
+}
+
+.business__text{
+    font-family: $main-font-family;
+    font-weight: 100;
+    font-size: 24px;
+    color: #BFBFBF;
+}
+
+.business__strong{
+    font-family: $main-font-family;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.business__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.business__item{
+    position: relative;
+    z-index: 1;
+    width: 375px;
+    height: 330px;
+    border: 1px solid #F7F7F7;
+    margin: 0;
+    padding-top: 136px;
+    padding-left: 41px;
+}
+
+.business__item::before{
+    content: " ";
+    display: inline-block;
+    z-index: 2;
+    background-image: url(../../images/coffe.svg);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 51px;
+    left: 41px;
+}
+
+.business__item:nth-child(2)::before{
+    content: " ";
+    display: inline-block;
+    z-index: 2;
+    background-image: url(../../images/hot-dog.svg);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 51px;
+    left: 41px;
+}
+
+.business__item:nth-child(3)::before{
+    content: " ";
+    display: inline-block;
+    z-index: 2;
+    background-image: url(../../images/calendar.svg);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 51px;
+    left: 41px;
+}
+
+.business__pro{
+    width: 272px;
+    margin: 0;
+    padding: 0;
+}
+
+.business__text1{
+    font-family: "IBM Plex Mono", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999999;
+    margin-top: 13px;
+    padding: 0;
+}
+
+.business__strong1{
+    font-family: $main-font-family, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
